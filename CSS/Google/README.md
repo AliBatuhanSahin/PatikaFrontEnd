@@ -1,0 +1,1 @@
+![ekran](assets/Ekran.png)
