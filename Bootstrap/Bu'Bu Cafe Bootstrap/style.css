@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+  }
+  
+body, html {
+    background-color: #EDCD44;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    background-attachment: fixed;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 3rem;
+    color: #500d4c;
+    font-family: 'Pacifico', cursive;
+  }
+
+
+.center{
+    align-items: center;
+    text-align: center;
+    margin-top: -62px;
+    
+}
+
+section p{
+    font-size: 1.3rem;
+    color: #423809;
+}
+
+header {
+    background-color: #81CAD6
+    
+}
+
+.section-links {
+    padding: 1rem;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 40px; 
+    
+}
+
+div a{
+    padding: 0.5rem;
+    text-align: center;
+    margin-bottom: 40px;  
+}
+
+h2{
+    color: #2a6b24;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+}
+
+.ptag{
+    margin-left: 8rem;
+    margin-right: 8rem;
+    color: #500d4c;
+}
+
+.product-div{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    
+}
+
+.container {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column; /* Dikey yönde sıralama */
+    align-items: center;
+    
+    
+}
+
+.container img {
+    width: 184px; /* Genişlik */
+    height: 300px; /* Yükseklik */
+  }
+
+section img{
+    display: inline-block;
+}
+
+.kahve1{
+    margin-right: 1rem;
+    padding-right: 0rem;
+    display: flex;
+}
+
+.kahve2{
+    margin-right: 0rem;
+    padding-left: 0rem;
+    display: flex;
+}
+
+section {
+    
+      text-align: center;
+      padding: 10px;
+      margin: 5px;
+    
+}
+
+footer {
+    background-color: #e99536;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.cardcolor{
+    background-color: #EDCD44;
+}
+
+.card-title,
+.card-text {
+    font-family: 'Pacifico', cursive;
+    color: #500d4c;
+    font-size: 20px;
+}
+
+p{
+    font-family: 'Pacifico', cursive;
+    font-size: 23px;
+}
+
+
+
