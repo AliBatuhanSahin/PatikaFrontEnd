@@ -1,0 +1,150 @@
+.review-client-section {
+    display: flex;
+    justify-content: center;
+    background-color: var(--light-blue);
+
+}
+
+.review-client-container {
+    width: 67%;
+    font-size: 0.9rem;
+    font-weight: 550;
+    color: #4e434e;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+/*Review Client Header********/
+.review-client-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+/*Client Header Top*/
+.client-header-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0.5rem;
+}
+
+.client-header-top h3 {
+    font-size: 25px;
+    font-weight: 800;
+    color: var(--dark-blue);
+}
+
+.client-header-top span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-yellow);
+    color: var(--bg-yellow);
+    height: 7px;
+    width: 60px;
+    border-radius: 3.5px ;
+}
+
+/*Review Client Bottom*/
+.client-header-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.2rem;
+}
+
+/*Review Client Footer********/
+.review-client-footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    column-gap: 70px;
+}
+
+/*Review Client Footer Box*/
+.client-footer-box {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+/* Client Box Top */
+.client-footer-box-top {
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 10px;
+}
+
+.client-footer-box-top img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+/* Client Box Top Nickname */
+.client-nickname {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+}
+
+.client-nickname h6 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.client-nickname span {
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Client Box Bottom */
+.client-footer-box-bottom {
+    width: 400px;
+    background-color: var(--dark-blue);
+}
+
+.client-footer-box-bottom p{
+    color: var(--bg-white);
+    padding: 10px 20px;
+    line-height: 1.5;
+    font-size: 12px;
+    font-weight:600 ;
+}
+
+/* Client Box Triangles***/
+.client-box-triangle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.triangle-left{
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 0px solid transparent; 
+    border-bottom: 0px solid #8096be; 
+    border-top: 30px solid #8096be;  
+}
+
+.triangle-right{
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 30px solid transparent; 
+    border-bottom: 0px solid #8096be; 
+    border-top: 30px solid #8096be; 
+    margin-right: -50px;  
+}
+
+

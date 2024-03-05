@@ -1,0 +1,33 @@
+.section-features {
+    background-color: var(--light-blue);
+}
+
+.section-features-container {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 eşit genişlikte sütun */
+    gap: 1.5rem; /* Sütunlar arasındaki boşluk */
+}
+
+.section-features-container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-white);
+    margin: 2.2rem 0;
+    padding: 0.8rem 3rem 1.2rem;
+}
+
+.section-features-container  div span {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: var(--dark-blue);
+    font-weight: 800;
+}
+
+.section-features-container div h6 {
+    font-size: 0.9rem;
+    font-weight: 800;
+}

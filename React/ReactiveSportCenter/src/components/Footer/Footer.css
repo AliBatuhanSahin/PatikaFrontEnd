@@ -1,0 +1,60 @@
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: var(--dark-blue);
+}
+
+.footer-container {
+    width: 70%;
+    font-size: 0.9rem;
+    font-weight: 650;
+    color: var(--bg-white);
+    padding-bottom: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.8rem; 
+}
+
+.footer-logo img{
+    height: 3.5rem;  
+}
+
+.footer-contact  {
+    margin-top: -5px;
+}
+
+.footer-contact p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+
+.footer-info-box  {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.8rem;
+}
+
+.info , 
+.helpful {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.helpful , 
+.info span {
+    font-size: 22px;
+    font-weight: 700px;
+}
+
+.helpful a, 
+.info a {
+    font-size: 14px;
+    font-weight: 700px;
+    color: var(--bg-white);
+}
+
+footer a:hover {
+    color: var(--bg-yellow);
+}

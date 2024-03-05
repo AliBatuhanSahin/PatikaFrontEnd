@@ -1,0 +1,265 @@
+/** Section-Our **********************************************/
+.section-our {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem; 
+    font-size: 0.9rem;
+    font-weight: 550;
+    color: #4e434e;
+    padding-bottom: 2rem;
+}
+
+/** Section-Our-Top *****************/
+.section-our-top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    align-items: center;
+    row-gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.trapezoid-backround {
+    background-color: #f6f6f6;
+    clip-path: polygon(33% 0, 100% 0, 100% 100%, 50% 100%);
+    position: relative;
+}
+
+.trapezoid-backround-white {
+    background-color: white;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.trapezoid-backround::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f6f6f6; /* Arka plan rengi */
+    clip-path: polygon(33% 0, 100% 0, 100% 100%, 50% 100%);
+    z-index: -1; /* İçeriğin altında kalması için z-index değeri belirleniyor */
+}
+
+.section-our-classes {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+.our-classes {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    align-items: center; 
+}
+
+.our-classes-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.3rem;
+}
+
+.our-classes-header h3 {
+    font-size: 25px;
+    font-weight: 800;
+    color: var(--dark-blue);
+}
+
+.our-classes-header span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-yellow);
+    color: var(--bg-yellow);
+    height: 7px;
+    width: 60px;
+    border-radius: 3.5px ;
+}
+
+.our-classes-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.2rem;
+}
+
+/* Trainin Styles Container */
+.training-styles {
+    display: flex;
+    justify-content: center;
+    column-gap: 110px;
+    margin-left: 10px;
+    padding: 2rem;
+}
+
+.training-styles span {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /*Ufak bir animasyon olusturur*/
+    margin-right: 20px;
+    font-weight: 800;
+    padding: 7px 20px;
+    border-radius: 3px;
+    color: var(--bg-white);
+    background-color: var(--dark-blue);
+    cursor: pointer;
+}
+
+.training-styles .active-training {
+    background-color: var(--bg-yellow);
+    box-shadow: 1px 1px 10px rgba(209, 183, 35, 0.4), 
+    -1px -1px 10px rgba(209, 183, 35, 0.4);
+}
+
+.triangle-training-choose {
+    position: relative;
+    top: 14px;
+    /* right: 35%; */
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 0 solid transparent;
+    border-top: 7px solid var(--bg-yellow);  
+}
+
+.section-our-content {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 6rem;
+    margin-bottom: 3.5rem;
+}
+
+/* Content Paragraph */
+.content-paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items:start ;
+    row-gap: 30px;
+    width: 360px;
+}
+
+.paragraph-top {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    line-height: 22px;
+}
+
+.content-paragraph h5 {
+    font-size: 21px;
+    font-weight: 800;
+}
+
+.paragraph-bottom {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.content-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content-img img {
+    height: 260px;
+    padding-right: 50px;
+}
+
+
+/** Section-Our-Bottom *************/
+.section-our-bottom {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 4rem;
+}
+
+/*BMI section*/
+.bmi-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    width: 350px;
+    margin-bottom: 2rem;
+}
+
+.bmi-container h3 {
+    font-size: 25px;
+    font-weight: 800;
+    color: var(--dark-blue);
+}
+
+.bmi-container p {
+    line-height: 1.3rem;
+}
+
+.bmi-calculator {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 350px;
+    align-items: center;
+}
+
+.bmi-calculator input{
+    border: 1px solid black;
+    border-radius: 3px;
+    height: 25px;
+    width: 140px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.bmi-calculator input:focus{
+    border: 1px solid var(--dark-blue);
+}
+
+.bmi-calculator input::placeholder {
+    color: gray;
+}
+
+.bmi-img-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.bmi-img-box h5 {
+    font-size: 19px;
+}
+
+.bmi-img-box img{
+    width: 410px;
+}
+
+.bmi-img-box {
+    position: relative;
+    max-width: 100%;
+}
+
+.bmi-triangle {
+    position: absolute; 
+    display: flex;
+    margin: 0 7%;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid var(--bg-yellow);
+    border-top: 0 solid transparent; 
+}
+
